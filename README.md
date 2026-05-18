@@ -28,7 +28,8 @@ rio-airbnb-analytics/
 │   ├── data_cleaning.py         # Skrypt uruchomieniowy potoku ETL Pandas
 │   └── gui_analyzer.py          # Kod interfejsu aplikacji desktopowej Tkinter
 │
-└── README.md                    # Dokumentacja systemu
+├── README.md                    # Dokumentacja systemu
+└── requirements.txt             # Zależności środowiska uruchomieniowego
 
 ```
 
