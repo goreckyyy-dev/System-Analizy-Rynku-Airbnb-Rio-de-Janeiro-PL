@@ -2,7 +2,7 @@ import pandas as pd
 
 print("--- Rozpoczynam czyszczenie danych dla Rio de Janeiro ---")
 
-df = pd.read_csv('/Users/marcingorecki/Desktop/Python/Big Data/listings.csv', encoding='utf-8', low_memory=False)
+df = pd.read_csv('listings.csv', encoding='utf-8', low_memory=False)
 print(f"Początkowa liczba rekordów: {df.shape[0]}")
 
 kolumny_do_zostawienia = [
@@ -44,7 +44,7 @@ nowe_nazwy = {
 }
 df = df.rename(columns=nowe_nazwy)
 
-df.to_csv('/Users/marcingorecki/Desktop/Python/Big Data/rio_airbnb_wyczyszczone.csv', index=False, encoding='utf-8')
+df.to_csv('your final file path here', index=False, encoding='utf-8')
 
 print(f"Koncowa liczba rekordów po czyszczeniu: {df.shape[0]}")
 print("Plik 'rio_airbnb_wyczyszczone.csv' jest gotowy do wrzucenia do MS Access!")
