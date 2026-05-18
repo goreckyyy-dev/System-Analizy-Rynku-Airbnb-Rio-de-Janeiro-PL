@@ -1,7 +1,0 @@
-listings.csv
-project_airbnb.db
-*.csv
-*.db
-.DS_Store
-.sqbpro
-sqlite.py
