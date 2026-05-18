@@ -11,7 +11,7 @@ class AirbnbAnalyzerApp:
         self.root.geometry("1100x700")
         self.root.minsize(900, 600)
 
-        self.default_db_path = '/Users/marcingorecki/Desktop/Python/Big Data/projekt_airbnb.db'
+        self.default_db_path = ''
         self.db_path = self.default_db_path if os.path.exists(self.default_db_path) else ""
 
         self.current_df = None
